@@ -62,6 +62,14 @@ namespace Bridge.Google.Maps
         public extern LatLng GetCenter();
 
         /// <summary>
+        /// Returns the clickability of the map icons. A map icon represents a point of interest, also known as a POI. If the returned value is true, then the icons are clickable on the map.
+        /// </summary>
+        /// <returns>
+        /// The <see cref="bool"/>.
+        /// </returns>
+        public extern bool GetClickableIcons();
+
+        /// <summary>
         /// The get div.
         /// </summary>
         /// <returns>
@@ -151,6 +159,14 @@ namespace Bridge.Google.Maps
         /// The lat lng.
         /// </param>
         public extern void SetCenter(Any<LatLng, LatLngLiteral> latLng);
+
+        /// <summary>
+        /// Controls whether the map icons are clickable or not. A map icon represents a point of interest, also known as a POI. To disable the clickability of map icons, pass a value of false to this method.
+        /// </summary>
+        /// <param name="value">
+        /// The value.
+        /// </param>
+        public extern void SetClickableIcons(bool value);
 
         /// <summary>
         /// Sets the compass heading for aerial imagery measured in degrees from cardinal direction North.

@@ -20,6 +20,11 @@ namespace Bridge.Google.Maps
         public LatLng Center;
 
         /// <summary>
+        /// When false, map icons are not clickable. A map icon represents a point of interest, also known as a POI. By default map icons are clickable.
+        /// </summary>
+        public bool ClickableIcons;
+
+        /// <summary>
         /// Enables/disables all default UI. May be overridden individually.
         /// </summary>
         public bool DisableDefaultUI;
