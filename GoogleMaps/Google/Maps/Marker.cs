@@ -120,12 +120,12 @@ namespace Bridge.Google.Maps
         public extern MarkerShape GetShape();
 
         /// <summary>
-        /// The get tile.
+        /// The get title.
         /// </summary>
         /// <returns>
         /// The <see cref="string"/>.
         /// </returns>
-        public extern string GetTile();
+        public extern string GetTitle();
 
         /// <summary>
         /// The get visible.
@@ -249,12 +249,12 @@ namespace Bridge.Google.Maps
         public extern void SetShape(MarkerShape shape);
 
         /// <summary>
-        /// The set tile.
+        /// The set title.
         /// </summary>
         /// <param name="tile">
         /// The tile.
         /// </param>
-        public extern void SetTile(string tile);
+        public extern void SetTitle(string title);
 
         /// <summary>
         /// The set visible.
