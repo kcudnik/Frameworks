@@ -251,8 +251,8 @@ namespace Bridge.Google.Maps
         /// <summary>
         /// The set title.
         /// </summary>
-        /// <param name="tile">
-        /// The tile.
+        /// <param name="title">
+        /// The title.
         /// </param>
         public extern void SetTitle(string title);
 
