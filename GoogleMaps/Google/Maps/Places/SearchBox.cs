@@ -16,7 +16,7 @@ namespace Bridge.Google.Maps.Places
         /// </summary>
         /// <param name="inputField">the Input element.</param>
         /// <param name="opts">The options.</param>
-        public extern SearchBox(InputElement inputField, SearchBoxOptions opts = null);
+        public extern SearchBox(HTMLInputElement inputField, SearchBoxOptions opts = null);
 
         /// <summary>
         /// Returns the bounds to which query predictions are biased.
