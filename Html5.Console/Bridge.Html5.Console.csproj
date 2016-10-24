@@ -7,8 +7,8 @@
     <ProjectGuid>{49A43430-680D-4704-9105-D4352D105B86}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bridge.Console</RootNamespace>
-    <AssemblyName>Bridge.Console</AssemblyName>
+    <RootNamespace>Bridge.Html5.Console</RootNamespace>
+    <AssemblyName>Bridge.Html5.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NoStdLib>true</NoStdLib>
@@ -51,13 +51,13 @@
     <NuGetBuildPackage>true</NuGetBuildPackage>
   </PropertyGroup>
   <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <NuGetPackageSourcePath Include="$(SolutionDir).build\specs\Bridge.Console.nuspec">
-      <Path>$(SolutionDir).build\specs\Bridge.Console.nuspec</Path>
+    <NuGetPackageSourcePath Include="$(SolutionDir).build\specs\Bridge.Html5.Console.nuspec">
+      <Path>$(SolutionDir).build\specs\Bridge.Html5.Console.nuspec</Path>
     </NuGetPackageSourcePath>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Bridge, Version=1.14.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Bridge.Core.1.14.0\lib\net40\Bridge.dll</HintPath>
+    <Reference Include="Bridge, Version=15.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.Core.15.3.0\lib\net40\Bridge.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
